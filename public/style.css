@@ -1,0 +1,324 @@
+html {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    width: 100%;
+    background-color: #36454F !important;
+    height: 55px;
+    color: white !important;
+}
+
+.button:hover {
+    background-color: black !important;
+}
+
+.form-control-lg {
+    min-height: 55px !important;
+}
+
+.toggle-button {
+    height: 55px;
+    background-color: #36454F !important;
+    width: 100%;
+    color: white !important;
+}
+
+.Mui-selected {
+    background-color: black !important;
+}
+
+.toggle-button-group {
+    text-align: center;
+    width: 100%;
+}
+
+.search {
+    /* background-color: #708090; */
+    background-color: #708090;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-container {
+    margin-top: 25px;
+}
+
+.box {
+    margin: 1em auto;
+    background: #708090;
+    padding-top: 16px;
+    color: white;
+    width: 180px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+    -webkit-transition: -webkit-transform 300ms ease;
+    transition: -webkit-transform 300ms ease;
+    -o-transition: transform 300ms ease;
+    transition: transform 300ms ease;
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+
+.box:hover {
+    -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
+    transform: scale(1.1) perspective(1500px) rotateY(10deg);
+}
+
+
+
+.title {
+    padding-top: 24px;
+    padding-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.value {
+    padding-top: 0;
+    padding-bottom: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.temp {
+    font-size: 7em;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.weather .icon {
+    position: relative;
+    margin: 0 auto;
+}
+
+.weather-icon {
+    height: 80px;
+    width: 80px;
+    margin-top: -50px;
+}
+
+.spin {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    text-align: center;
+    width: 65px;
+}
+
+.weather-div {
+    filter: blur(10px);
+}
+
+.bubble.black {
+    background-color: #313E48;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.bubble.black:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 14px;
+    border-style: solid;
+    border-width: 29px 15px 0;
+    border-color: #313E48 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    transform: rotate(30deg);
+}
+
+.weather-card {
+    background-color: #36454F;
+    border-radius: 10px;
+    box-shadow: 0 0 20px -10px white;
+    margin-top: 25px;
+}
+
+.weather-side {
+    color: white;
+    position: relative;
+    height: 500px;
+    border-radius: 25px;
+    /* background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"); */
+    width: 300px;
+    -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
+    -webkit-transition: -webkit-transform 300ms ease;
+    transition: -webkit-transform 300ms ease;
+    -o-transition: transform 300ms ease;
+    transition: transform 300ms ease;
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
+    -webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
+    transform: translateZ(0) scale(1.02) perspective(1000px);
+    margin: auto;
+}
+
+.weather-side:hover {
+    -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
+    transform: scale(1.1) perspective(1500px) rotateY(10deg);
+}
+
+.weather-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, #36454F 10%, #181818 100%);
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.date-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.date-dayname {
+    margin: 0;
+}
+
+.date-day {
+    display: block;
+}
+
+.location {
+    display: inline-block;
+    margin-top: -15px;
+}
+
+.weather-container {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.weather-temp {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.weather-desc {
+    margin: 0;
+}
+
+.chart-container {
+    box-shadow: 0 0 20px -10px white;
+    border-radius: 15px;
+    background-color: #313E48;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tooltip-value-container {
+    padding-top: 24px;
+    padding-bottom: 2px;
+}
+
+.tooltip-value {
+    /* padding-top: 24px; */
+    padding-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.tool {
+    margin: 1em auto;
+    background: #708090;
+    margin-top: 5px;
+    color: white;
+    min-width: 200px;
+    -webkit-transition: -webkit-transform 300ms ease;
+    transition: -webkit-transform 300ms ease;
+    -o-transition: transform 300ms ease;
+    transition: transform 300ms ease;
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+
+.tool:hover {
+    -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
+    transform: scale(1.1) perspective(1500px) rotateY(10deg);
+}
+
+.transparent-span {
+    color: white;
+    opacity: 0.3;
+}
+
+
+
+@media (min-width: 1200px) {
+    .weather-detail-container {}
+}
+
+@media (max-width: 1200px) and (min-width:992px) {
+    .weather-detail-container {
+        padding-left: 60px
+    }
+
+    .weather-side {
+        height: 100%;
+    }
+
+
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    /* .weather-detail-container {
+        padding-left: 100px
+    } */
+
+    /* .box {
+        width: 150px;
+    } */
+
+    .weather-side {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 0px) {
+    .weather-side {
+        width: 425px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .search-form {
+        padding-bottom: 5px;
+    }
+
+    .button-div {
+        padding-bottom: 5px;
+    }
+
+    .form-control-lg {
+        height: 70px;
+    }
+}
