@@ -28,7 +28,7 @@
   (.. e -target -value))
 
 ; openweathermap.org API key
-(def api-key "b01cd3657eabc10d339905aa50ab0a83")
+(def api-key API_KEY)
 
 (defn get-weather-data [lat long]
   (GET "https://api.openweathermap.org/data/2.5/onecall"
